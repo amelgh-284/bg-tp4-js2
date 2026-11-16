@@ -1,0 +1,82 @@
+
+#table_container {
+    font-family: Calibri;
+    margin: auto;
+    width: 80%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th {
+    background-color: #0786b5;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.col_number,
+.col_chkbox {
+    text-align: center;
+}
+
+.col_text {
+    text-align: left;
+}
+
+/* Formulaire */
+#form_container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 0;
+}
+
+.form_group {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.form_label {
+    font-weight: bold;
+}
+
+.form_field {
+    width: 120px;
+}
+
+/* Résumé */
+#container_summary {
+    background-color: #eee;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#container_summary p {
+    margin: 5px;
+}
+
+/* Boutons */
+button {
+    cursor: pointer;
+}
+
+.btn-add {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 7px 12px;
+}
+
+.btn-consol {
+    margin-top: 5px;
+}
